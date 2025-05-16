@@ -17,8 +17,8 @@ import { ShipsProvider } from './contexts/ShipsContext';
 import { ComponentsProvider } from './contexts/ComponentsContext';
 import { JobsProvider } from './contexts/JobsContext';
 
-import { NotificationsProvider } from './contexts/NotificationsContext';   // <-- added babe
-import NotificationCenter from './components/NotificationCenter';  // <-- added babe
+import { NotificationsProvider } from './contexts/NotificationsContext';
+import NotificationCenter from './components/NotificationCenter';
 
 function App() {
   return (
